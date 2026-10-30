@@ -123,6 +123,12 @@ h1{
 
   h1{
     font-size: 1.7rem;
+    transition: 0.3s ease-in-out color;
+  }
+
+  h1:hover{
+    color: var(--yellow);
+    cursor: pointer;
   }
 
   .content{
